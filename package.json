@@ -7,8 +7,7 @@
     "build": "strapi build",
     "deploy": "strapi deploy",
     "develop": "strapi develop",
-    "start": "concurrently \"strapi start\" \"node src/websocket-server.js\"",
-    "start:ws": "node src/websocket-server.js",
+    "start": "strapi start",
     "strapi": "strapi"
   },
   "dependencies": {
